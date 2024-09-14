@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{Lb as i,Sb as s,ea as o,ub as r,vb as a}from"./chunk-EJI4PO7O.mjs";import"./chunk-VVCT4QZE.mjs";var p=(()=>{let e=class e{constructor(){}ngOnInit(){typeof localStorage<"u"&&localStorage.setItem("currentPage","/brands")}};e.\u0275fac=function(n){return new(n||e)},e.\u0275cmp=o({type:e,selectors:[["app-brands"]],standalone:!0,features:[s],decls:2,vars:0,template:function(n,d){n&1&&(r(0,"p"),i(1,"brands works!"),a())}});let t=e;return t})();export{p as BrandsComponent};

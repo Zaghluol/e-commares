@@ -1,0 +1,38 @@
+ .footer .but{
+    width: 80%;
+    margin: 1.5rem auto;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    opacity: 0;
+}
+.card:hover .but{
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    opacity: 1;
+}
+.card{
+    cursor: pointer;
+}
+.cars{
+    height: 20rem;
+}
+.cars img{
+    height: 20rem;
+    width: 20rem;
+    margin:  auto;
+}
+.image1 img , .image2 img{
+    height: 10rem;
+    margin:  auto;
+}

@@ -1,0 +1,17 @@
+<div class="w-50 mx-auto my-5">
+    <form [formGroup]="userDataForm" (ngSubmit)="checkOutBtn()">
+        <div class="my-3">
+            <label >details :</label>
+            <input formControlName ="details" class="form-control">
+        </div>
+        <div class="my-3">
+            <label >phone :</label>
+            <input formControlName ="phone" class="form-control">
+        </div>
+        <div class="my-3">
+            <label >city :</label>
+            <input formControlName ="city" class="form-control">
+        </div>
+        <button type="submit" class="btn btn-success p-2 w-100">CheckOut</button>
+    </form>
+</div>

@@ -1,0 +1,13 @@
+@if (searchFlag) {
+    <h1>searchImgggg .....</h1>
+}
+<input #mySearchInput placeholder="Enter Search text">
+
+<div class="row">
+    @for (item of allMovies; track $index) {
+        <div class="col-3">
+            <img [src]="item.Poster" alt="">
+            <h2>{{item.title}}</h2>
+        </div>
+    }
+</div>
